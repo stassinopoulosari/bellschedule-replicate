@@ -1,5 +1,5 @@
-name: Scrape Classroom Data/Deploy ICL
-run-name: Scrape & deploy by @ucsd-itslead
+name: Replicate Firebase
+run-name: Replicate UBSA firebase
 on:
   workflow_dispatch:
   schedule:
