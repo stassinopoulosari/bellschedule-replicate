@@ -20,6 +20,7 @@ jobs:
       - name: Replicate
         run: |
           curl https://ubsa-fb.firebaseio.com/schools/dublinHS.json > ./dublinHS.json
+          echo `date -Iseconds` > ./latest_build.txt
           git add .
           git commit -m "Build at `date -Iseconds`"
           git push origin main
